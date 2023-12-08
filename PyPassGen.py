@@ -11,8 +11,8 @@ def generate_password(length):
     return password
 
 # Solicite a quantidade desejada de caracteres
-length_of_password = int(input("Digite a quantidade de caracteres para a senha: "))
+length_of_password = int(input("Lenght: "))
 
 password = generate_password(length_of_password)
 
-print("Senha gerada:", password)
+print("Generated pASS:", password)
